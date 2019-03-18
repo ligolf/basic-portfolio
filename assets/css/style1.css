@@ -24,7 +24,7 @@ header  {
 
   #relative {
     position: relative;
-    height: 400px;
+    height: 500px;
     width: 960px;
     padding: 20px;
     margin-top: 120px;
@@ -33,20 +33,6 @@ header  {
     color: #777777;
     background-color: #ffffff;
   }
-
-  #relative2 {
-    position: relative;
-    height: 900px;
-    width: 960px;
-    padding: 20px;
-    margin-top: 120px;
-    margin-bottom: 20px;
-    text-align: right;
-    color: #;
-    background-color: #ffffff;
-  }
-
-
 
   a {
       font-size: 22px;
@@ -59,7 +45,7 @@ header  {
 
 .container {
     width: 960px;
-    height: 300px;
+    height: 600px;
     margin: 0 auto;
     border: 65px auto;
     text-align: right;
@@ -92,24 +78,11 @@ body{
 
 }
 
-}
-#main-bio2 {
-    width: 80%;
-    color: #4aaaa5;
-}
-
 #contact-info {
     right: 70px;
     float: right;
     box-sizing: border-box;
     font-size: 18px;
-}
-
-#bio-image {
-    margin-right: 20px;
-    width: 150px;
-    height: 200px;
-
 }
 
 h2 {
@@ -135,13 +108,13 @@ h4  {
 
 }
 
-  .site-footer    {
+.site-footer    {
 
     position: absolute;
     bottom: 0 auto;
     width: 120%;
     height: 160px;
-    margin-top: 400px;
+    margin-top: 750px;
     margin-left: -20%;
     border: 0px auto;
     padding: 0px auto;
@@ -154,4 +127,15 @@ h4  {
     margin: 0;
     background-color: #777777; 
     text-align: center;
+}
+
+.button {
+
+    background-color:#4aaaa5;
+    border:none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align:center;
+    display: inline-block;
+    font-size: 16px;
 }
